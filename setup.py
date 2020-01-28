@@ -20,5 +20,5 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     license='Public domain',
     url='https://github.com/scijava/scyjava',
-    install_requires=['pyjnius', 'jgo'],
+    install_requires=['pyjnius=1.2.0', 'jgo'],
 )
